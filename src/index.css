@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Light mode defaults */
+body {
+  font-family: Inter, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Dark mode overrides */
+html.dark body {
+  background-color: #080c14;
+  color: #f1f5f9;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    to bottom,
+    #001c56,
+    #ffb600
+  );
+  border-radius: 999px;
+}
