@@ -159,8 +159,7 @@ export const businessBundles = [
 
 export const businessServices = {
   "Company Registration & CIPC": [
-    { service: "Company Registration Assistance", price: "R350" },
-    { service: "Company Registration + Documents", price: "R550" },
+    { service: "Company Registration", price: "R350" },
     { service: "Name Reservation Assistance", price: "R100" },
     { service: "Director Amendments Assistance", price: "R250" },
     { service: "Beneficial Ownership (BO) Filing", price: "R200" },
