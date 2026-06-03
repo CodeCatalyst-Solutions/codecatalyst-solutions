@@ -180,7 +180,7 @@ This project is proprietary and confidential. All rights reserved by CodeCatalys
 ## 📞 Contact
 
 **CodeCatalyst Solutions**  
-Email: [info@codecatalystsolutions.com](mailto:info@codecatalystsolutions.com)  
+Email: [davidbmotsoeneng.dev@gmail.com](mailto:davidbmotsoeneng.dev@gmail.com)  
 Phone: [+27 63 814 9146](tel:+27638149146)  
 Location: Gauteng, South Africa
 
