@@ -2,20 +2,24 @@ import { Code2, Globe, Database, Cloud, Workflow, Cpu, LayoutDashboard, Bot, Shi
 
 export const techServices = [
   {
-    icon: Code2,
-    title: "Custom Software Development",
-    description: "Tailored web and business applications built for scale, maintainability, and performance.",
-    benefits: ["Built to fit your workflow", "Scalable architecture", "Clean maintainable code"],
-    process: "Discovery → Planning → Build → Test → Deploy",
-    cta: "Discuss a Project",
-  },
-  {
     icon: Globe,
     title: "Web Development",
     description: "Modern responsive websites and web platforms with premium UX and strong conversion focus.",
     benefits: ["Mobile-first design", "SEO-friendly structure", "Fast loading performance"],
     process: "Brief → Design → Develop → Launch",
+    price: "From R2,500",
+    period: "once-off",
     cta: "View Web Solutions",
+  },
+  {
+    icon: Code2,
+    title: "Custom Software Development",
+    description: "Tailored web and business applications built for scale, maintainability, and performance.",
+    benefits: ["Built to fit your workflow", "Scalable architecture", "Clean maintainable code"],
+    process: "Discovery → Planning → Build → Test → Deploy",
+    price: "From R25,000",
+    period: "custom quote",
+    cta: "Discuss a Project",
   },
   {
     icon: Database,
@@ -23,6 +27,8 @@ export const techServices = [
     description: "Reliable backend services, databases, business logic, and secure data handling.",
     benefits: ["Stable APIs", "Data integrity", "Secure service layers"],
     process: "Requirements → Architecture → Implementation → Optimization",
+    price: "Custom quote",
+    period: "per project",
     cta: "Build Backend",
   },
   {
@@ -31,6 +37,8 @@ export const techServices = [
     description: "Cloud-native deployments, infrastructure planning, CI/CD automation, and release management.",
     benefits: ["Faster deployments", "Better reliability", "Reduced manual effort"],
     process: "Assess → Automate → Deploy → Monitor",
+    price: "Custom quote",
+    period: "per project",
     cta: "Improve Delivery",
   },
   {
@@ -39,6 +47,8 @@ export const techServices = [
     description: "Workflow automation for internal operations, repetitive tasks, and business efficiency.",
     benefits: ["Save time", "Reduce errors", "Improve operational flow"],
     process: "Identify → Automate → Integrate → Measure",
+    price: "Custom quote",
+    period: "per project",
     cta: "Automate Now",
   },
   {
@@ -47,6 +57,8 @@ export const techServices = [
     description: "High-level architecture design for modular systems, microservices, and enterprise platforms.",
     benefits: ["Future-ready systems", "Clear service boundaries", "Improved scalability"],
     process: "Map → Design → Validate → Implement",
+    price: "Custom quote",
+    period: "per project",
     cta: "Plan Architecture",
   },
   {
@@ -55,6 +67,8 @@ export const techServices = [
     description: "Powerful internal dashboards for reporting, analytics, administration, and decision-making.",
     benefits: ["Live insights", "Clean UI", "Role-based access"],
     process: "Data model → UI design → Build → Integrate",
+    price: "Custom quote",
+    period: "per project",
     cta: "See Dashboards",
   },
   {
@@ -63,6 +77,8 @@ export const techServices = [
     description: "Practical AI-powered assistants and workflow enhancements for business productivity.",
     benefits: ["Smarter operations", "Better response time", "Modern automation"],
     process: "Use case → Prototype → Integrate → Refine",
+    price: "Custom quote",
+    period: "per project",
     cta: "Explore AI",
   },
   {
@@ -71,6 +87,8 @@ export const techServices = [
     description: "Security-conscious implementation, reliability improvements, and production hardening.",
     benefits: ["Safer systems", "Better uptime", "Reduced risk"],
     process: "Review → Secure → Test → Maintain",
+    price: "Custom quote",
+    period: "per project",
     cta: "Secure Systems",
   },
 ];

@@ -7,6 +7,9 @@ export const businessServices = [
     description: "Professional business registration support for new companies and startups.",
     benefits: ["Fast setup", "Reduced admin burden", "Clear next steps"],
     process: "Consultation → Submission → Registration → Handover",
+    price: "R350 – R550",
+    period: "once-off",
+    note: "Government (CIPC) fees excluded.",
     cta: "Register a Company",
   },
   {
@@ -15,6 +18,9 @@ export const businessServices = [
     description: "Beneficial ownership filing support and documentation assistance.",
     benefits: ["Compliance support", "Accurate records", "Reduced delays"],
     process: "Collect details → Prepare filing → Submit → Confirm",
+    price: "R200",
+    period: "once-off",
+    note: "Government fees excluded.",
     cta: "Start BO Filing",
   },
   {
@@ -23,6 +29,9 @@ export const businessServices = [
     description: "Annual return preparation, submission support, and compliance reminders.",
     benefits: ["Stay compliant", "Avoid penalties", "Reliable support"],
     process: "Review → Prepare → File → Track",
+    price: "R250",
+    period: "once-off",
+    note: "Government fees excluded.",
     cta: "File Annual Returns",
   },
   {
@@ -31,6 +40,8 @@ export const businessServices = [
     description: "Business changes, updates, and administrative amendments handled professionally.",
     benefits: ["Smooth updates", "Proper documentation", "Less downtime"],
     process: "Request → Verify → Update → Confirm",
+    price: "R250",
+    period: "once-off",
     cta: "Change Company Details",
   },
   {
@@ -39,6 +50,8 @@ export const businessServices = [
     description: "Director appointments, resignations, and business structure updates.",
     benefits: ["Correct records", "Efficient updates", "Professional handling"],
     process: "Info capture → Prepare docs → Submit → Completion",
+    price: "R250",
+    period: "once-off",
     cta: "Manage Director Changes",
   },
   {
@@ -47,6 +60,8 @@ export const businessServices = [
     description: "Ongoing compliance support for growing businesses and busy founders.",
     benefits: ["Stay organised", "Reduce risk", "Keep operations moving"],
     process: "Assess → Plan → Act → Track",
+    price: "R200 – R400",
+    period: "per service",
     cta: "Get Compliance Help",
   },
   {
@@ -55,6 +70,8 @@ export const businessServices = [
     description: "Business admin support for documentation, filings, and operational tasks.",
     benefits: ["Save time", "Avoid missed tasks", "Improve order"],
     process: "Intake → Organise → Execute → Report",
+    price: "R200",
+    period: "per service",
     cta: "Request Support",
   },
   {
@@ -63,6 +80,8 @@ export const businessServices = [
     description: "End-to-end startup admin packages for founders who want a clean launch.",
     benefits: ["One-stop support", "Better structure", "Founder-friendly"],
     process: "Plan → Register → Set up → Guide",
+    price: "From R999",
+    period: "bundle",
     cta: "Launch Properly",
   },
   {
@@ -71,6 +90,8 @@ export const businessServices = [
     description: "Business letters, records, forms, and supporting documentation prepared neatly.",
     benefits: ["Professional documents", "Consistency", "Reduced admin stress"],
     process: "Brief → Draft → Review → Deliver",
+    price: "R100 – R500",
+    period: "per document",
     cta: "Prepare Documents",
   },
 ];
