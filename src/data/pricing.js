@@ -115,7 +115,7 @@ export const businessBundles = [
   },
   {
     title: "Compliance Bundle",
-    price: "R499",
+    price: "R399",
     period: "once-off",
     popular: false,
     description: "Stay compliant with essential annual filings.",

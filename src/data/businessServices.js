@@ -9,7 +9,6 @@ export const businessServices = [
     process: "Consultation → Submission → Registration → Handover",
     price: "R350 – R550",
     period: "once-off",
-    note: "Government (CIPC) fees excluded.",
     cta: "Register a Company",
   },
   {
