@@ -51,37 +51,11 @@ export default function Hero() {
             </motion.div>
 
             <div className="grid md:grid-cols-2 gap-6 w-full max-w-3xl">
-              {/* Tech */}
+              {/* Business */}
               <motion.button
                 initial={{ opacity: 0, x: -30 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.2 }}
-                whileHover={{ scale: 1.03 }}
-                onClick={() => choose("tech")}
-                className="group text-left p-8 rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl hover:border-brand-gold hover:bg-brand-gold/5 transition-all duration-300"
-              >
-                <Code2 className="w-10 h-10 text-brand-gold mb-4" />
-                <h2 className="text-xl font-bold text-white mb-2">Tech Solutions</h2>
-                <p className="text-gray-400 text-sm mb-6">
-                  I need a website, web app, or custom software built for my business.
-                </p>
-                <ul className="space-y-2 mb-6">
-                  {["Website Development", "Custom Web Apps", "Software Systems", "Cloud & Automation"].map((item) => (
-                    <li key={item} className="text-sm text-gray-300 flex items-center gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-brand-gold flex-shrink-0" />{item}
-                    </li>
-                  ))}
-                </ul>
-                <span className="inline-flex items-center gap-2 text-brand-gold font-semibold text-sm group-hover:gap-3 transition-all">
-                  Get Started <ArrowRight className="w-4 h-4" />
-                </span>
-              </motion.button>
-
-              {/* Business */}
-              <motion.button
-                initial={{ opacity: 0, x: 30 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.3 }}
                 whileHover={{ scale: 1.03 }}
                 onClick={() => choose("business")}
                 className="group text-left p-8 rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl hover:border-brand-gold hover:bg-brand-gold/5 transition-all duration-300"
@@ -93,6 +67,32 @@ export default function Hero() {
                 </p>
                 <ul className="space-y-2 mb-6">
                   {["Company Registration", "Tax & CSD Registration", "COIDA Assistance", "Compliance Bundles"].map((item) => (
+                    <li key={item} className="text-sm text-gray-300 flex items-center gap-2">
+                      <span className="w-1.5 h-1.5 rounded-full bg-brand-gold flex-shrink-0" />{item}
+                    </li>
+                  ))}
+                </ul>
+                <span className="inline-flex items-center gap-2 text-brand-gold font-semibold text-sm group-hover:gap-3 transition-all">
+                  Get Started <ArrowRight className="w-4 h-4" />
+                </span>
+              </motion.button>
+
+              {/* Tech */}
+              <motion.button
+                initial={{ opacity: 0, x: 30 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.3 }}
+                whileHover={{ scale: 1.03 }}
+                onClick={() => choose("tech")}
+                className="group text-left p-8 rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl hover:border-brand-gold hover:bg-brand-gold/5 transition-all duration-300"
+              >
+                <Code2 className="w-10 h-10 text-brand-gold mb-4" />
+                <h2 className="text-xl font-bold text-white mb-2">Tech Solutions</h2>
+                <p className="text-gray-400 text-sm mb-6">
+                  I need a website, web app, or custom software built for my business.
+                </p>
+                <ul className="space-y-2 mb-6">
+                  {["Website Development", "Custom Web Apps", "Software Systems", "Cloud & Automation"].map((item) => (
                     <li key={item} className="text-sm text-gray-300 flex items-center gap-2">
                       <span className="w-1.5 h-1.5 rounded-full bg-brand-gold flex-shrink-0" />{item}
                     </li>

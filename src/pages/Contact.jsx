@@ -37,8 +37,8 @@ export default function Contact() {
 
           <div className="mt-12 space-y-4 text-gray-400">
             <p>
-              <a href="mailto:info@codecatalystsolutions.com" className="hover:text-brand-gold transition">
-                info@codecatalystsolutions.com
+              <a href="mailto:davidbmotsoeneng.dev@gmail.com" className="hover:text-brand-gold transition">
+                davidbmotsoeneng.dev@gmail.com
               </a>
             </p>
             <p>
